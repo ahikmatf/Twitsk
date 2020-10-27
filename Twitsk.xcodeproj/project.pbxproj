@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39351CF825487B6A004EA743 /* TwitskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39351CF725487B6A004EA743 /* TwitskApp.swift */; };
+		39351CFA25487B6A004EA743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39351CF925487B6A004EA743 /* ContentView.swift */; };
+		39351CFC25487B6C004EA743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39351CFB25487B6C004EA743 /* Assets.xcassets */; };
+		39351CFF25487B6C004EA743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39351CFE25487B6C004EA743 /* Preview Assets.xcassets */; };
+		39351D0125487B6C004EA743 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39351D0025487B6C004EA743 /* Persistence.swift */; };
+		39351D0425487B6C004EA743 /* Twitsk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39351D0225487B6C004EA743 /* Twitsk.xcdatamodeld */; };
+		39351D0F25487B6D004EA743 /* TwitskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39351D0E25487B6D004EA743 /* TwitskTests.swift */; };
+		39351D1A25487B6D004EA743 /* TwitskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39351D1925487B6D004EA743 /* TwitskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39351D0B25487B6D004EA743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39351CEC25487B6A004EA743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39351CF325487B6A004EA743;
+			remoteInfo = Twitsk;
+		};
+		39351D1625487B6D004EA743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39351CEC25487B6A004EA743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39351CF325487B6A004EA743;
+			remoteInfo = Twitsk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39351CF425487B6A004EA743 /* Twitsk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitsk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39351CF725487B6A004EA743 /* TwitskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitskApp.swift; sourceTree = "<group>"; };
+		39351CF925487B6A004EA743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39351CFB25487B6C004EA743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39351CFE25487B6C004EA743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39351D0025487B6C004EA743 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		39351D0325487B6C004EA743 /* Twitsk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twitsk.xcdatamodel; sourceTree = "<group>"; };
+		39351D0525487B6C004EA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39351D0A25487B6D004EA743 /* TwitskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39351D0E25487B6D004EA743 /* TwitskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitskTests.swift; sourceTree = "<group>"; };
+		39351D1025487B6D004EA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39351D1525487B6D004EA743 /* TwitskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39351D1925487B6D004EA743 /* TwitskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitskUITests.swift; sourceTree = "<group>"; };
+		39351D1B25487B6D004EA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39351CF125487B6A004EA743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39351D0725487B6D004EA743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39351D1225487B6D004EA743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39351CEB25487B6A004EA743 = {
+			isa = PBXGroup;
+			children = (
+				39351CF625487B6A004EA743 /* Twitsk */,
+				39351D0D25487B6D004EA743 /* TwitskTests */,
+				39351D1825487B6D004EA743 /* TwitskUITests */,
+				39351CF525487B6A004EA743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39351CF525487B6A004EA743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39351CF425487B6A004EA743 /* Twitsk.app */,
+				39351D0A25487B6D004EA743 /* TwitskTests.xctest */,
+				39351D1525487B6D004EA743 /* TwitskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39351CF625487B6A004EA743 /* Twitsk */ = {
+			isa = PBXGroup;
+			children = (
+				39351CF725487B6A004EA743 /* TwitskApp.swift */,
+				39351CF925487B6A004EA743 /* ContentView.swift */,
+				39351CFB25487B6C004EA743 /* Assets.xcassets */,
+				39351D0025487B6C004EA743 /* Persistence.swift */,
+				39351D0525487B6C004EA743 /* Info.plist */,
+				39351D0225487B6C004EA743 /* Twitsk.xcdatamodeld */,
+				39351CFD25487B6C004EA743 /* Preview Content */,
+			);
+			path = Twitsk;
+			sourceTree = "<group>";
+		};
+		39351CFD25487B6C004EA743 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39351CFE25487B6C004EA743 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39351D0D25487B6D004EA743 /* TwitskTests */ = {
+			isa = PBXGroup;
+			children = (
+				39351D0E25487B6D004EA743 /* TwitskTests.swift */,
+				39351D1025487B6D004EA743 /* Info.plist */,
+			);
+			path = TwitskTests;
+			sourceTree = "<group>";
+		};
+		39351D1825487B6D004EA743 /* TwitskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39351D1925487B6D004EA743 /* TwitskUITests.swift */,
+				39351D1B25487B6D004EA743 /* Info.plist */,
+			);
+			path = TwitskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39351CF325487B6A004EA743 /* Twitsk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39351D1E25487B6D004EA743 /* Build configuration list for PBXNativeTarget "Twitsk" */;
+			buildPhases = (
+				39351CF025487B6A004EA743 /* Sources */,
+				39351CF125487B6A004EA743 /* Frameworks */,
+				39351CF225487B6A004EA743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitsk;
+			productName = Twitsk;
+			productReference = 39351CF425487B6A004EA743 /* Twitsk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39351D0925487B6D004EA743 /* TwitskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39351D2125487B6D004EA743 /* Build configuration list for PBXNativeTarget "TwitskTests" */;
+			buildPhases = (
+				39351D0625487B6D004EA743 /* Sources */,
+				39351D0725487B6D004EA743 /* Frameworks */,
+				39351D0825487B6D004EA743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39351D0C25487B6D004EA743 /* PBXTargetDependency */,
+			);
+			name = TwitskTests;
+			productName = TwitskTests;
+			productReference = 39351D0A25487B6D004EA743 /* TwitskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39351D1425487B6D004EA743 /* TwitskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39351D2425487B6D004EA743 /* Build configuration list for PBXNativeTarget "TwitskUITests" */;
+			buildPhases = (
+				39351D1125487B6D004EA743 /* Sources */,
+				39351D1225487B6D004EA743 /* Frameworks */,
+				39351D1325487B6D004EA743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39351D1725487B6D004EA743 /* PBXTargetDependency */,
+			);
+			name = TwitskUITests;
+			productName = TwitskUITests;
+			productReference = 39351D1525487B6D004EA743 /* TwitskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39351CEC25487B6A004EA743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					39351CF325487B6A004EA743 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					39351D0925487B6D004EA743 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 39351CF325487B6A004EA743;
+					};
+					39351D1425487B6D004EA743 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 39351CF325487B6A004EA743;
+					};
+				};
+			};
+			buildConfigurationList = 39351CEF25487B6A004EA743 /* Build configuration list for PBXProject "Twitsk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39351CEB25487B6A004EA743;
+			productRefGroup = 39351CF525487B6A004EA743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39351CF325487B6A004EA743 /* Twitsk */,
+				39351D0925487B6D004EA743 /* TwitskTests */,
+				39351D1425487B6D004EA743 /* TwitskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39351CF225487B6A004EA743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39351CFF25487B6C004EA743 /* Preview Assets.xcassets in Resources */,
+				39351CFC25487B6C004EA743 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39351D0825487B6D004EA743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39351D1325487B6D004EA743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39351CF025487B6A004EA743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39351D0125487B6C004EA743 /* Persistence.swift in Sources */,
+				39351D0425487B6C004EA743 /* Twitsk.xcdatamodeld in Sources */,
+				39351CFA25487B6A004EA743 /* ContentView.swift in Sources */,
+				39351CF825487B6A004EA743 /* TwitskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39351D0625487B6D004EA743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39351D0F25487B6D004EA743 /* TwitskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39351D1125487B6D004EA743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39351D1A25487B6D004EA743 /* TwitskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39351D0C25487B6D004EA743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39351CF325487B6A004EA743 /* Twitsk */;
+			targetProxy = 39351D0B25487B6D004EA743 /* PBXContainerItemProxy */;
+		};
+		39351D1725487B6D004EA743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39351CF325487B6A004EA743 /* Twitsk */;
+			targetProxy = 39351D1625487B6D004EA743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39351D1C25487B6D004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39351D1D25487B6D004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39351D1F25487B6D004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Twitsk/Preview Content\"";
+				DEVELOPMENT_TEAM = VB544QR8U9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Twitsk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asephavefun.Twitsk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39351D2025487B6D004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Twitsk/Preview Content\"";
+				DEVELOPMENT_TEAM = VB544QR8U9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Twitsk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asephavefun.Twitsk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39351D2225487B6D004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB544QR8U9;
+				INFOPLIST_FILE = TwitskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asephavefun.TwitskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitsk.app/Twitsk";
+			};
+			name = Debug;
+		};
+		39351D2325487B6D004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB544QR8U9;
+				INFOPLIST_FILE = TwitskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asephavefun.TwitskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitsk.app/Twitsk";
+			};
+			name = Release;
+		};
+		39351D2525487B6D004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB544QR8U9;
+				INFOPLIST_FILE = TwitskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asephavefun.TwitskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twitsk;
+			};
+			name = Debug;
+		};
+		39351D2625487B6D004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB544QR8U9;
+				INFOPLIST_FILE = TwitskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asephavefun.TwitskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twitsk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39351CEF25487B6A004EA743 /* Build configuration list for PBXProject "Twitsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39351D1C25487B6D004EA743 /* Debug */,
+				39351D1D25487B6D004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39351D1E25487B6D004EA743 /* Build configuration list for PBXNativeTarget "Twitsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39351D1F25487B6D004EA743 /* Debug */,
+				39351D2025487B6D004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39351D2125487B6D004EA743 /* Build configuration list for PBXNativeTarget "TwitskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39351D2225487B6D004EA743 /* Debug */,
+				39351D2325487B6D004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39351D2425487B6D004EA743 /* Build configuration list for PBXNativeTarget "TwitskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39351D2525487B6D004EA743 /* Debug */,
+				39351D2625487B6D004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39351D0225487B6C004EA743 /* Twitsk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39351D0325487B6C004EA743 /* Twitsk.xcdatamodel */,
+			);
+			currentVersion = 39351D0325487B6C004EA743 /* Twitsk.xcdatamodel */;
+			path = Twitsk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39351CEC25487B6A004EA743 /* Project object */;
+}
